@@ -50,7 +50,7 @@ window.onscroll = function(){
 
 function downloadCV() {
     // Ruta completa del archivo PDF
-    var url = 'pdf/cv.pdf';
+    var url = 'local/pdf/';
 
     // Crear un elemento de enlace temporal
     var link = document.createElement('a');

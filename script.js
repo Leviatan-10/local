@@ -50,14 +50,14 @@ window.onscroll = function(){
 
 function downloadCV() {
     // Ruta completa del archivo PDF
-    var url = 'pdf/cv.pdf';
+    var url = 'pdf/HOJA DE VIDA.docx';
 
     // Crear un elemento de enlace temporal
     var link = document.createElement('a');
     link.href = url;
 
     // Especificar el nombre del archivo
-    link.download = 'cv.pdf';
+    link.download = 'HOJA DE VIDA.docx';
 
     // Simular el clic en el enlace para iniciar la descarga
     link.click();
